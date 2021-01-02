@@ -1,0 +1,29 @@
+----------------------without recurssions-------------------------------
+def fib(n):
+    a=0
+    b=1
+    
+    if n == 0: print(0)
+    elif n == 1: print(0)    
+    else:
+        print(a)
+        print(b)
+    
+        for i in range(2,n):
+            c=a+b
+            a=b
+            b=c
+            print(c)
+    
+fib(1) 
+
+----------------------using recurssions-------------------------
+
+def fib(n):
+    if n == 0: return 0
+    elif n == 1: return 1
+    else:
+        return (fib(n-2)+fib(n-1))
+
+for i in range(9):    
+    print(fib(i))
