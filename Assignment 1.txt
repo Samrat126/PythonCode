@@ -1,0 +1,74 @@
+1. In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators.
+*
+&#39;hello&#39;
+-87.8
+-
+/
++
+6
+
+Answer: 
+*                   -> expression
+&#39;hello&#39;     -> value
+-87.8               -> value
+-                   -> expression
+/                   -> expression
++                   -> expression
+6                   -> value
+  
+
+2. What is the difference between string and variable?
+
+Answer: Variable is a memory location which stores some data. 
+        String is the type of data which is being stored.
+
+3. Describe three different data types.
+
+Answer: str -> string. Anything which is enclosed in double or single quotations are considered as string
+        int -> integer. Any number which doesnt have a decimal point
+        float -> float. Any number which have a decimal point
+
+4. What is an expression made up of? What do all expressions do?
+
+Answer: Expressions are python class object. It executes some mathematical expression
+
+5. This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+
+Answer: Statements represent an action or command e.g print statements, assignment statements. print 'hello', x = 1. 
+        Expression is a combination of variables, operations and values that yields a result value
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+
+Answer: 22
+
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam' * 3
+
+Answer: spamspamspam
+        spamspamspam
+
+8. Why is eggs a valid variable name while 100 is invalid?
+
+Answer: In python Variable names must begin with a letter from A-Z or a-z or the underscore _ character
+
+9. What three functions can be used to get the integer, floating-point number, or string
+version of a value?
+
+Answer: 
+a="10"
+integer=int(a)
+string=str(a)
+floatpoint=float(a)
+
+
+print(type(integer))
+print(type(string))
+print(type(floatpoint))
+
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.'
+
+Answer: 'I have eaten ' + '99' + ' burritos.'
